@@ -1,0 +1,475 @@
+module	Radio
+{
+	imports
+		{
+			Base,
+		}
+
+/************************   MADE BY DEVOTAN FOR PROJECT ZOMBOID ROLEPLAY | USED FOR DURM   ***********************/
+
+	/************************   RADIOS   ***********************/
+
+	item RadioRedGrid
+	{
+		DisplayCategory		=	Communications,
+		Type				=	Radio,
+		Icon				=	RadioRed,
+		Weight				=	0.5,
+		ConditionMax		=	100,
+		DisplayName			=	Premium Technologies Radio (Connected),
+		UseDelta			=	0.009,	
+		UseWhileEquipped	=	FALSE,
+		DisappearOnUse		=	FALSE,
+		TwoWay				=	FALSE,
+		TransmitRange		=	0,
+		MicRange			=	0,
+		BaseVolumeRange		=	15,
+		IsPortable			=	TRUE,
+		IsTelevision		=	FALSE,
+		MinChannel			=	88000,
+		MaxChannel			=	108000,
+		UsesBattery			=	FALSE,
+		IsHighTier			=	FALSE,
+		WorldObjectSprite	=	appliances_radio_01_8,
+		Tooltip				=	Tooltip_item_RadioGrid,
+		AcceptMediaType		=	0,
+		WorldStaticModel	=	RadioRed_Ground,
+	}
+	item RadioBlackGrid
+	{
+		DisplayCategory		=	Communications,
+		Type				=	Radio,
+		Icon				=	RadioBlack,
+		Weight				=	0.5,
+		ConditionMax		=	100,
+		DisplayName			=	ValuTech Radio (Connected),
+		UseDelta			=	0.007,	
+		UseWhileEquipped	=	FALSE,
+		DisappearOnUse		=	FALSE,
+		TwoWay				=	FALSE,
+		TransmitRange		=	0,
+		MicRange			=	0,
+		BaseVolumeRange		=	10,
+		IsPortable			=	TRUE,
+		IsTelevision		=	FALSE,
+		MinChannel			=	88000,
+		MaxChannel			=	108000,
+		UsesBattery			=	FALSE,
+		IsHighTier			=	FALSE,
+		WorldObjectSprite	=	appliances_radio_01_0,
+		Tooltip				=	Tooltip_item_RadioGrid,
+		WorldStaticModel	=	RadioBlack_Ground,
+	}
+	item RadioMakeShiftGrid
+	{
+		DisplayCategory		=	Communications,
+		Type				=	Radio,
+		Icon				=	Radio,
+		Weight				=	0.5,
+		DisplayName			=	Makeshift Radio (Connected),
+		UseDelta			=	0.007,
+		UseWhileEquipped	=	FALSE,
+		DisappearOnUse		=	FALSE,
+		TwoWay				=	FALSE,
+		TransmitRange		=	0,
+		MicRange			=	0,
+		BaseVolumeRange		=	10,
+		IsPortable			=	TRUE,
+		IsTelevision		=	FALSE,
+		MinChannel			=	88000,
+		MaxChannel			=	108000,
+		UsesBattery			=	FALSE,
+		IsHighTier			=	FALSE,
+		WorldObjectSprite	=	appliances_radio_01_16,
+		Tooltip				=	Tooltip_item_RadioGrid,
+		WorldStaticModel	=	RadioBlue_Ground,
+	}
+	
+	/************************   WALKIE TALKIES   ***********************/
+	
+	item WalkieTalkie7
+	{
+		DisplayCategory		=	Communications,
+		Type				=	Radio,
+		Icon				=	WalkieTalkieBudget,
+		Weight				=	0.1,
+		DisplayName			=	Toys-R-Mine Walkie Talkie (Improved),
+		UseDelta			=	0.014,	
+		UseWhileEquipped	=	FALSE,
+		DisappearOnUse		=	FALSE,
+		TwoWay				=	TRUE,
+		TransmitRange		=	2000,
+		MicRange			=	5,
+		BaseVolumeRange		=	10,
+		IsPortable			=	TRUE,
+		IsTelevision		=	FALSE,
+		MinChannel			=	50000,
+		MaxChannel			=	200000,
+		UsesBattery			=	TRUE,
+		IsHighTier			=	FALSE,
+		WorldObjectSprite	=	appliances_com_01_16,
+		Tooltip				=	Tooltip_item_Radio,
+		StaticModel			=	WalkieTalkieToy,
+		WorldStaticModel	=	WalkieGroundToy,
+		AttachmentType		=	Walkie,
+		primaryAnimMask		=	HoldingUmbrellaRight,
+		secondaryAnimMask	=	HoldingUmbrellaLeft,
+	}
+	item WalkieTalkie8
+	{
+		DisplayCategory		=	Communications,
+		Type				=	Radio,
+		Icon				=	WalkieTalkieCivilian,
+		Weight				=	0.1,
+		DisplayName			=	ValuTech Walkie Talkie (Improved),
+		UseDelta			=	0.016,	
+		UseWhileEquipped	=	FALSE,
+		DisappearOnUse		=	FALSE,
+		TwoWay				=	TRUE,
+		TransmitRange		=	4000,
+		MicRange			=	5,
+		BaseVolumeRange		=	12,
+		IsPortable			=	TRUE,
+		IsTelevision		=	FALSE,
+		MinChannel			=	25000,
+		MaxChannel			=	300000,
+		UsesBattery			=	TRUE,
+		IsHighTier			=	FALSE,
+		WorldObjectSprite	=	appliances_com_01_24,
+		Tooltip				=	Tooltip_item_Radio,
+		StaticModel			=	WalkieTalkieValue,
+		WorldStaticModel	=	WalkieGroundValuTech,
+		AttachmentType		=	Walkie,
+		primaryAnimMask		=	HoldingUmbrellaRight,
+		secondaryAnimMask	=	HoldingUmbrellaLeft,
+	}
+	item WalkieTalkie9
+	{
+		DisplayCategory		=	Communications,
+		Type				=	Radio,
+		Icon				=	WalkieTalkieCivilian2,
+		Weight				=	0.1,
+		DisplayName			=	Premium Tech. WalkieTalkie (Improved),
+		UseDelta			=	0.009,	
+		UseWhileEquipped	=	FALSE,
+		DisappearOnUse		=	FALSE,
+		TwoWay				=	TRUE,
+		TransmitRange		=	8000,
+		MicRange			=	5,
+		BaseVolumeRange		=	14,
+		IsPortable			=	TRUE,
+		IsTelevision		=	FALSE,
+		MinChannel			=	10000,
+		MaxChannel			=	500000,
+		UsesBattery			=	TRUE,
+		IsHighTier			=	FALSE,
+		WorldObjectSprite	=	appliances_com_01_32,
+		Tooltip				=	Tooltip_item_Radio,
+		StaticModel			=	WalkieTalkiePremium,
+		WorldStaticModel	=	WalkieGroundPremium,
+		AttachmentType		=	Walkie,
+		primaryAnimMask		=	HoldingUmbrellaRight,
+		secondaryAnimMask	=	HoldingUmbrellaLeft,
+	}
+	
+	item WalkieTalkie10
+	{
+		DisplayCategory		=	Communications,
+		Type				=	Radio,
+		Icon				=	WalkieTalkiePolice,
+		Weight				=	0.1,
+		DisplayName			=	Tactical Walkie Talkie (Improved),
+		UseDelta			=	0.014,
+		UseWhileEquipped	=	FALSE,
+		DisappearOnUse		=	FALSE,
+		TwoWay				=	TRUE,
+		TransmitRange		=	16000,
+		MicRange			=	5,
+		BaseVolumeRange		=	16,
+		IsPortable			=	TRUE,
+		IsTelevision		=	FALSE,
+		MinChannel			=	200,
+		MaxChannel			=	1000000,
+		UsesBattery			=	TRUE,
+		IsHighTier			=	TRUE,
+		WorldObjectSprite	=	appliances_com_01_40,
+		Tooltip				=	Tooltip_item_Radio,
+		StaticModel			=	WalkieTalkieTactical,
+		WorldStaticModel	=	WalkieGroundTactical,
+		AttachmentType		=	Walkie,
+		primaryAnimMask		=	HoldingUmbrellaRight,
+		secondaryAnimMask	=	HoldingUmbrellaLeft,
+	}
+	
+	/************************   HAM RADIOS   ***********************/
+	
+	item HamRadio1Grid
+	{
+		DisplayCategory		=	Communications,
+		Type				=	Radio,
+		Icon				=	HamRadioCivilian,
+		Weight				=	5.0,
+		ConditionMax		=	100,
+		DisplayName			=	Premium Technologies HAM Radio (Connected),
+		UseDelta			=	0.010,	
+		UseWhileEquipped	=	FALSE,
+		DisappearOnUse		=	FALSE,
+		TwoWay				=	TRUE,
+		TransmitRange		=	7500,
+		MicRange			=	5,
+		BaseVolumeRange		=	10,
+		IsPortable			=	FALSE,
+		IsTelevision		=	FALSE,
+		MinChannel			=	10000,
+		MaxChannel			=	500000,
+		UsesBattery			=	FALSE,
+		IsHighTier			=	FALSE,
+		WorldObjectSprite	=	appliances_com_01_0,
+		Tooltip				=	Tooltip_item_RadioGrid,
+	}
+
+	item HamRadio2Grid
+	{
+		DisplayCategory		=	Communications,
+		Type				=	Radio,
+		Icon				=	HamRadioMilitary,
+		Weight				=	5.0,
+		ConditionMax		=	100,
+		DisplayName			=	US ARMY COMM. HAM Radio (Connected),
+		UseDelta			=	0.014,	
+		UseWhileEquipped	=	FALSE,
+		DisappearOnUse		=	FALSE,
+		TwoWay				=	TRUE,
+		TransmitRange		=	20000,
+		MicRange			=	5,
+		BaseVolumeRange		=	15,
+		IsPortable			=	FALSE,
+		IsTelevision		=	FALSE,
+		MinChannel			=	200,
+		MaxChannel			=	1000000,
+		UsesBattery			=	FALSE,
+		IsHighTier			=	FALSE,
+		WorldObjectSprite	=	appliances_com_01_8,
+		Tooltip				=	Tooltip_item_RadioGrid,
+	}
+
+	item HamRadioMakeShiftGrid
+	{
+		DisplayCategory		=	Communications,
+		Type				=	Radio,
+		Icon				=	HamRadioCivilian,
+		Weight				=	5.0,
+		DisplayName			=	Makeshift HAM Radio (Connected),
+		UseDelta			=	0.010,
+		UseWhileEquipped	=	FALSE,
+		DisappearOnUse		=	FALSE,
+		TwoWay				=	TRUE,
+		TransmitRange		=	6000,
+		MicRange			=	5,
+		BaseVolumeRange		=	10,
+		IsPortable			=	FALSE,
+		IsTelevision		=	FALSE,
+		MinChannel			=	10000,
+		MaxChannel			=	500000,
+		UsesBattery			=	FALSE,
+		IsHighTier			=	FALSE,
+		WorldObjectSprite	=	appliances_com_01_56,
+		Tooltip				=	Tooltip_item_RadioGrid,
+	}
+	
+	/************************   RECIPES   ***********************/
+	
+	recipe Connect Premium Technologies Radio to Grid
+    {
+        RadioRed,
+        ElectronicsScrap=2,
+        Radio.ElectricWire,
+        keep [Recipe.GetItemTypes.Screwdriver],
+
+        Result:RadioRedGrid,
+        SkillRequired:Electricity=1,
+        NeedToBeLearn:false,
+        Time:100.0,
+        OnGiveXP:RadioCraft_OnGiveXP,
+        Category:Electrical,
+        AnimNode:Disassemble,
+        Prop1:Screwdriver,
+		Prop2:CDplayer,
+    }
+	
+	recipe Connect ValuTech Radio to Grid
+	{
+        RadioBlack,
+        ElectronicsScrap=2,
+        Radio.ElectricWire,
+        keep [Recipe.GetItemTypes.Screwdriver],
+
+        Result:RadioBlackGrid,
+        SkillRequired:Electricity=1,
+        NeedToBeLearn:false,
+        Time:100.0,
+        OnGiveXP:RadioCraft_OnGiveXP,
+        Category:Electrical,
+        AnimNode:Disassemble,
+        Prop1:Screwdriver,
+		Prop2:CDplayer,
+    }
+	
+	recipe Connect Makeshift Radio to Grid
+	{
+        RadioMakeShift,
+        ElectronicsScrap=2,
+        Radio.ElectricWire,
+        keep [Recipe.GetItemTypes.Screwdriver],
+
+        Result:RadioMakeShiftGrid,
+        SkillRequired:Electricity=1,
+        NeedToBeLearn:false,
+        Time:100.0,
+        OnGiveXP:RadioCraft_OnGiveXP,
+        Category:Electrical,
+        AnimNode:Disassemble,
+        Prop1:Screwdriver,
+		Prop2:CDplayer,
+    }
+	
+	recipe Connect Premium Technologies HAM Radio to Grid
+	{
+        HamRadio1,
+        ElectronicsScrap=2,
+        Radio.ElectricWire,
+        keep [Recipe.GetItemTypes.Screwdriver],
+
+        Result:HamRadio1Grid,
+        SkillRequired:Electricity=1,
+        NeedToBeLearn:false,
+        Time:100.0,
+        OnGiveXP:RadioCraft_OnGiveXP,
+        Category:Electrical,
+        AnimNode:Disassemble,
+        Prop1:Screwdriver,
+		Prop2:CDplayer,
+    }
+	
+	recipe Connect US ARMY COMM. HAM Radio to Grid
+	{
+        HamRadio2,
+        ElectronicsScrap=2,
+        Radio.ElectricWire,
+        keep [Recipe.GetItemTypes.Screwdriver],
+
+        Result:HamRadio2Grid,
+        SkillRequired:Electricity=1,
+        NeedToBeLearn:false,
+        Time:100.0,
+        OnGiveXP:RadioCraft_OnGiveXP,
+        Category:Electrical,
+        AnimNode:Disassemble,
+        Prop1:Screwdriver,
+		Prop2:CDplayer,
+    }
+	
+	recipe Connect Survivor HAM Radio to Grid
+	{
+        HamRadio3,
+        ElectronicsScrap=2,
+        Radio.ElectricWire,
+        keep [Recipe.GetItemTypes.Screwdriver],
+
+        Result:HamRadio3Grid,
+        SkillRequired:Electricity=1,
+        NeedToBeLearn:false,
+        Time:100.0,
+        OnGiveXP:RadioCraft_OnGiveXP,
+        Category:Electrical,
+        AnimNode:Disassemble,
+        Prop1:Screwdriver,
+		Prop2:CDplayer,
+    }
+	
+	recipe Connect Makeshift HAM Radio to Grid
+	{
+        HamRadioMakeShift,
+        ElectronicsScrap=2,
+        Radio.ElectricWire,
+        keep [Recipe.GetItemTypes.Screwdriver],
+
+        Result:HamRadioMakeShiftGrid,
+        SkillRequired:Electricity=1,
+        Time:100.0,
+        OnGiveXP:RadioCraft_OnGiveXP,
+        Category:Electrical,
+        AnimNode:Disassemble,
+        Prop1:Screwdriver,
+		Prop2:CDplayer,
+    }
+	
+	recipe Make Toys-R-Mine Walkie Talkie (Improved)
+	{
+		WalkieTalkie1,
+		ElectronicsScrap=2,
+		ElectricWire,
+		keep [Recipe.GetItemTypes.Screwdriver],
+		
+		Result:WalkieTalkie7,
+		SkillRequired:Electricity=1,
+		Time:400.0,
+		OnGiveXP:RadioCraft_OnGiveXP,
+		Category:Electrical,
+		AnimNode:Disassemble,
+		Prop1:Screwdriver,
+		Prop2:Source=1,
+	}
+	
+	recipe Make ValuTech Walkie Talkie (Improved)
+	{
+		WalkieTalkie2,
+		ElectronicsScrap=4,
+		ElectricWire,
+		keep [Recipe.GetItemTypes.Screwdriver],
+		
+		Result:WalkieTalkie8,
+		SkillRequired:Electricity=2,
+		Time:400.0,
+		OnGiveXP:RadioCraft_OnGiveXP,
+		Category:Electrical,
+		AnimNode:Disassemble,
+		Prop1:Screwdriver,
+		Prop2:Source=1,
+	}
+	
+	recipe Make Premium Tech. Walkie Talkie (Improved)
+	{
+		WalkieTalkie3,
+		ElectronicsScrap=6,
+		ElectricWire,
+		keep [Recipe.GetItemTypes.Screwdriver],
+		
+		Result:WalkieTalkie9,
+		SkillRequired:Electricity=4,
+		Time:400.0,
+		OnGiveXP:RadioCraft_OnGiveXP,
+		Category:Electrical,
+		AnimNode:Disassemble,
+		Prop1:Screwdriver,
+		Prop2:Source=1,
+	}
+	
+	recipe Make Tactical Walkie Talkie (Improved)
+	{
+		WalkieTalkie4,
+		ElectronicsScrap=8,
+		ElectricWire,
+		keep [Recipe.GetItemTypes.Screwdriver],
+		
+		Result:WalkieTalkie10,
+		SkillRequired:Electricity=6,
+		Time:400.0,
+		OnGiveXP:RadioCraft_OnGiveXP,
+		Category:Electrical,
+		AnimNode:Disassemble,
+		Prop1:Screwdriver,
+		Prop2:Source=1,
+	}
+
+}

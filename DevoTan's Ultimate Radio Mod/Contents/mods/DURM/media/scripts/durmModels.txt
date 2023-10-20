@@ -1,0 +1,48 @@
+module Base
+{
+
+	/************************   MADE BY BIRGET | USED FOR DURM   ***********************/
+
+	model WalkieGroundToy
+	{
+	mesh = Walkie_Ground,
+	texture = WalkieTalkie_Toy,
+	}
+
+	model WalkieGroundValuTech
+	{
+	mesh = Walkie_Ground,
+	texture = WalkieTalkie_ValuTech,
+	}
+
+	model WalkieGroundPremium
+	{
+	mesh = Walkie_Ground,
+	texture = WalkieTalkie_Premium,
+	}
+
+	model WalkieGroundTactical
+	{
+	mesh = Walkie_Ground,
+	texture = WalkieTalkie_Tactical,
+	}
+
+	model WalkieGroundUSArmy
+	{
+	mesh = Walkie_Ground,
+	texture = WalkieTalkie_USArmy,
+	}
+
+	model WalkieGroundUSArmy
+	{
+	mesh = Walkie_Ground,
+	texture = WalkieTalkie_USArmy,
+	}
+
+	model WalkieGroundMakeshift
+	{
+	mesh = Walkie_Ground,
+	texture = WalkieTalkie_Makeshift,
+	}
+
+}
