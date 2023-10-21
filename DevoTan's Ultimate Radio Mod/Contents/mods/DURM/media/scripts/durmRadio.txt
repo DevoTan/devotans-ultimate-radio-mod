@@ -397,7 +397,7 @@ module	Radio
 		ElectricWire,
 		keep [Recipe.GetItemTypes.Screwdriver],
 		
-		Result:WalkieTalkie7,
+		Result:WalkieTalkie6,
 		SkillRequired:Electricity=1,
 		Time:400.0,
 		OnGiveXP:RadioCraft_OnGiveXP,
@@ -414,7 +414,7 @@ module	Radio
 		ElectricWire,
 		keep [Recipe.GetItemTypes.Screwdriver],
 		
-		Result:WalkieTalkie8,
+		Result:WalkieTalkie7,
 		SkillRequired:Electricity=2,
 		Time:400.0,
 		OnGiveXP:RadioCraft_OnGiveXP,
@@ -431,7 +431,7 @@ module	Radio
 		ElectricWire,
 		keep [Recipe.GetItemTypes.Screwdriver],
 		
-		Result:WalkieTalkie9,
+		Result:WalkieTalkie8,
 		SkillRequired:Electricity=4,
 		Time:400.0,
 		OnGiveXP:RadioCraft_OnGiveXP,
@@ -448,7 +448,7 @@ module	Radio
 		ElectricWire,
 		keep [Recipe.GetItemTypes.Screwdriver],
 		
-		Result:WalkieTalkie10,
+		Result:WalkieTalkie9,
 		SkillRequired:Electricity=6,
 		Time:400.0,
 		OnGiveXP:RadioCraft_OnGiveXP,
