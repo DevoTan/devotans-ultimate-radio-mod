@@ -369,24 +369,6 @@ module	Radio
 		Prop2:CDplayer,
     }
 	
-	recipe Connect Survivor HAM Radio to Grid
-	{
-        HamRadio3,
-        ElectronicsScrap=2,
-        Radio.ElectricWire,
-        keep [Recipe.GetItemTypes.Screwdriver],
-
-        Result:HamRadio3Grid,
-        SkillRequired:Electricity=1,
-        NeedToBeLearn:false,
-        Time:100.0,
-        OnGiveXP:RadioCraft_OnGiveXP,
-        Category:Electrical,
-        AnimNode:Disassemble,
-        Prop1:Screwdriver,
-		Prop2:CDplayer,
-    }
-	
 	recipe Connect Makeshift HAM Radio to Grid
 	{
         HamRadioMakeShift,
