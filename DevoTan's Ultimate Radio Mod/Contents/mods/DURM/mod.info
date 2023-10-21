@@ -1,4 +1,4 @@
-name=PZRP Radio Mod
+name=DevoTan's Ultimate Radio Mod
 poster=poster.png
-description=Serveral balance changes to radios and new non-battery radios. Repacked in accordance with The Indie Stone's workshop guidelines. All credit goes to the original authors, Peccadillo and Dylan.
-id=PZRPRadioMod
+description=Originally inspired by Peccadillo's, "Better Radio Mod" this project is a fork of the PZRP Radio Mod I use on my server. Includes improved walkie talkies, visible walkie talkies, ground models for walkie talkies, and more.
+id=DURM
