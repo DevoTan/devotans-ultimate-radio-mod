@@ -1,0 +1,61 @@
+module Base
+{
+
+	recipe Dismantle Radio
+	{
+		Radio.RadioRed/Radio.RadioBlack/Radio.RadioRedGrid/Radio.RadioBlackGrid,
+		keep [Recipe.GetItemTypes.Screwdriver],
+
+		NoBrokenItems:true,
+		Result:ElectronicsScrap,
+		Time:30.0,
+		OnTest:Recipe.OnTest.DismantleElectronics,
+		OnCreate:Recipe.OnCreate.DismantleRadio,
+		OnGiveXP:Recipe.OnGiveXP.DismantleRadio,
+		Category:Electrical,
+		AnimNode:Disassemble,
+		Prop1:Screwdriver,
+		Prop2:CDplayer,
+		Sound:Dismantle,
+		Override:true,
+	}
+
+	recipe Dismantle Two-way Radio
+	{
+		Radio.WalkieTalkie1/Radio.WalkieTalkie2/Radio.WalkieTalkie3/Radio.WalkieTalkie4/Radio.WalkieTalkie5/Radio.WalkieTalkie6/Radio.WalkieTalkie7/Radio.WalkieTalkie8/Radio.WalkieTalkie9,
+		keep [Recipe.GetItemTypes.Screwdriver],
+
+		NoBrokenItems:true,
+		Result:ElectronicsScrap,
+		Time:30.0,
+		OnTest:Recipe.OnTest.DismantleElectronics,
+		OnCreate:Recipe.OnCreate.DismantleRadioTwoWay,
+		OnGiveXP:Recipe.OnGiveXP.DismantleRadio,
+		Category:Electrical,
+		AnimNode:Disassemble,
+		Prop1:Screwdriver,
+		Prop2:CDplayer,
+		Sound:Dismantle,
+		Override:true,
+	}
+	
+	recipe Dismantle HAM Radio
+	{
+		Radio.HamRadio1/Radio.HamRadio2/Radio.HamRadio1Grid/Radio.HamRadio2Grid,
+		keep [Recipe.GetItemTypes.Screwdriver],
+
+		NoBrokenItems:true,
+		Result:ElectronicsScrap,
+		Time:30.0,
+		OnTest:Recipe.OnTest.DismantleElectronics,
+		OnCreate:Recipe.OnCreate.DismantleRadioHAM,
+		OnGiveXP:Recipe.OnGiveXP.DismantleRadio,
+		Category:Electrical,
+		AnimNode:Disassemble,
+		Prop1:Screwdriver,
+		Prop2:CDplayer,
+		Sound:Dismantle,
+		Override:true,
+	}
+
+}

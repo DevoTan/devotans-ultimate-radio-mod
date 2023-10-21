@@ -35,6 +35,7 @@ module	Radio
 		AcceptMediaType		=	0,
 		WorldStaticModel	=	RadioRed_Ground,
 	}
+	
 	item RadioBlackGrid
 	{
 		DisplayCategory		=	Communications,
@@ -60,6 +61,7 @@ module	Radio
 		Tooltip				=	Tooltip_item_RadioGrid,
 		WorldStaticModel	=	RadioBlack_Ground,
 	}
+	
 	item RadioMakeShiftGrid
 	{
 		DisplayCategory		=	Communications,
@@ -87,7 +89,7 @@ module	Radio
 	
 	/************************   WALKIE TALKIES   ***********************/
 	
-	item WalkieTalkie7
+	item WalkieTalkie6
 	{
 		DisplayCategory		=	Communications,
 		Type				=	Radio,
@@ -115,7 +117,8 @@ module	Radio
 		primaryAnimMask		=	HoldingUmbrellaRight,
 		secondaryAnimMask	=	HoldingUmbrellaLeft,
 	}
-	item WalkieTalkie8
+	
+	item WalkieTalkie7
 	{
 		DisplayCategory		=	Communications,
 		Type				=	Radio,
@@ -143,7 +146,8 @@ module	Radio
 		primaryAnimMask		=	HoldingUmbrellaRight,
 		secondaryAnimMask	=	HoldingUmbrellaLeft,
 	}
-	item WalkieTalkie9
+	
+	item WalkieTalkie8
 	{
 		DisplayCategory		=	Communications,
 		Type				=	Radio,
@@ -172,7 +176,7 @@ module	Radio
 		secondaryAnimMask	=	HoldingUmbrellaLeft,
 	}
 	
-	item WalkieTalkie10
+	item WalkieTalkie9
 	{
 		DisplayCategory		=	Communications,
 		Type				=	Radio,
