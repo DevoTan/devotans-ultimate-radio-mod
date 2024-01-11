@@ -2,10 +2,10 @@ module	Radio
 {
 	imports
 		{
-				Base,
+			Base,
 		}
 
-	/************************   MADE BY DEVOTAN FOR PROJECT ZOMBOID ROLEPLAY   ***********************/
+	/************************   MADE BY DEVOTAN FOR PROJECT ZOMBOID ROLEPLAY | USED FOR DURM   ***********************/
 
 	/************************   WALKIE TALKIES   ***********************/
 

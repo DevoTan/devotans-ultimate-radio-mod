@@ -5,7 +5,7 @@ module	Radio
 			Base,
 		}
 
-/************************   MADE BY DEVOTAN FOR PROJECT ZOMBOID ROLEPLAY | USED FOR DURM   ***********************/
+	/************************   MADE BY DEVOTAN FOR PROJECT ZOMBOID ROLEPLAY | USED FOR DURM   ***********************/
 
 	/************************   RADIOS   ***********************/
 
